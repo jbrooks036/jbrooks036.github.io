@@ -1,0 +1,24 @@
+.navbar.navbar-default(role='navigation')
+  .container
+    .navbar-header
+      button.navbar-toggle(data-toggle='collapse', data-target='#bs-navbar-collapse')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='/') &nbsp Jo Ann Brooks
+          
+
+    .collapse.navbar-collapse#bs-navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li: a(href='/#/skills').i.fa.fa-check &nbsp  Skills
+        li: a(href='/#/portfolio').i.fa.fa-picture-o &nbsp  Portfolio
+        li: a(href='/#/resume').i.fa.fa-newspaper-o &nbsp  Resume 
+
+.navbar.navbar-default.navbar-fixed-bottom
+  .container
+    .col-xs-2
+      a.fa.fa-envelope-o.fa-3x.navbottom(href='mailto:joannbrooks036@gmail.com') &nbsp;
+    .col-xs-8.email
+      p: i.fa.fa-copyright &nbsp Jo Ann Brooks
+    .col-xs-2
