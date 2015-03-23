@@ -2,3 +2,17 @@
 	text-align: center;
 	padding: 50px;
 }
+
+.projectImg {
+  display: block;
+  margin: auto;
+  border-radius: 5%;
+  background-repeat: none;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.btn{
+	margin: 10px;
+}

@@ -13,6 +13,12 @@
   height: 300px;
   text-align: justify;	
 }
+
+.contactInfo{
+  text-align: left;
+}
+
+
 h4.info {
   vertical-align: middle;
 }
